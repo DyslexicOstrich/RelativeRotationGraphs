@@ -1,5 +1,5 @@
 import os
-import imageio
+import imageio.v3 as iio
 import glob
 from rrg_db import DatabaseManager
 
@@ -11,8 +11,8 @@ images = []
 for file_name in sorted(os.listdir(png_dir)):
     if file_name.endswith(".png"):
         file_path = os.path.join(png_dir, file_name)
-        images.append(imageio.imread(file_path))
-imageio.mimsave(
+        images.append(iio.imread(file_path))
+iio.imwrite(
     "src/gifs/" + config["filename"] + "_" + str(len(os.listdir(gif_dir)) + 1) + ".gif",
     images,
     duration=config["gif_frame_time_delay"],
