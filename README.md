@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ```
 $ mysql -u root -p
 MariaDB [(none)]> CREATE DATABASE relativerotationgraphs; 
-MariaDB [relativerotationgraphs]> exit
+MariaDB [(none)]]> exit
 ```
 
 * Edit: `rrg_db.py`
