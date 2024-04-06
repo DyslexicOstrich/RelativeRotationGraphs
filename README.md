@@ -36,14 +36,16 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 ## Setup [Linux]
-```
-* Setup mysql database
 
+* Setup mysql database
+```
 $ mysql -u root -p
 MariaDB [(none)]> CREATE DATABASE relativerotationgraphs; 
 MariaDB [relativerotationgraphs]> exit
+```
 
-**Edit: rrg_db.py***
+*Edit: rrg_db.py
+```
 class DatabaseManager:
     def __init__(self):
         self.conn = mysql.connector.connect(
