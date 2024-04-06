@@ -50,7 +50,7 @@ class DatabaseManager:
     def __init__(self):
         self.conn = mysql.connector.connect(
             host="localhost",
-            user="Add your username here",
+            user="root",
             passwd="Add your password here",
             database="relativerotationgraphs",
         )
