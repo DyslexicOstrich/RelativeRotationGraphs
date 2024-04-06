@@ -44,7 +44,7 @@ MariaDB [(none)]> CREATE DATABASE relativerotationgraphs;
 MariaDB [relativerotationgraphs]> exit
 ```
 
-* Edit: rrg_db.py
+* Edit: `rrg_db.py`
 ```
 class DatabaseManager:
     def __init__(self):
