@@ -30,10 +30,11 @@ cd RelativeRotationGraphs
 ## Installation [Linux]
 ```
 git clone https://github.com/schuler-ph/RelativeRotationGraphs.git 
-cd RelativeRotationGraphs/src
+cd RelativeRotationGraphs/
 python -m venv .venv [Recommended]
 source .venv/bin/activate
 pip install -r requirements.txt
+cd src/
 ```
 ## Setup [Linux]
 
