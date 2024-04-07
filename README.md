@@ -63,6 +63,7 @@ class DatabaseManager:
 
 ## Running
 ```
+cd src/
 python basic.py
 ```
 ### config.json
