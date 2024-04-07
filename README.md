@@ -34,7 +34,6 @@ cd RelativeRotationGraphs/
 python -m venv .venv [Recommended]
 source .venv/bin/activate
 pip install -r requirements.txt
-cd src/
 ```
 ## Setup [Linux]
 
