@@ -1,10 +1,10 @@
 {
-    "symbols": ["xlp", "xlf", "xlk", "xlv", "xlre", "xlb", "xli", "xlu"],
+    "symbols": ["xlp", "xlf", "xlk", "xlv", "xlre", "xlb", "xli", "xlu", "xlc", "xly", "xle"],
     "compare_to": "spy",
     "rs_ratio_avg": 12,
     "rs_momentum_avg": 5,
     "tail_length": 10,
-    "plot_symbols": ["xlp", "xlf", "xlk", "xlv", "xlre", "xlb", "xli", "xlu"],
+    "plot_symbols": ["xlp", "xlf", "xlk", "xlv", "xlre", "xlb", "xli", "xlu", "xlc", "xly", "xle"],
     "history_range": 10,
     "filename": "plot",
     "remove_files_after_gif": true,
